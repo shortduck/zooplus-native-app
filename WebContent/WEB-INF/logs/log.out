@@ -1,0 +1,14 @@
+2017-09-20 11:56:32,429 DEBUG ( logTest.java:12:testLogFile())     - Hello this is a debug message
+2017-09-20 11:56:32,434 INFO  ( logTest.java:13:testLogFile())     - Hello this is an info message
+2017-09-20 11:57:08,687 DEBUG ( logTest.java:12)     - Hello this is a debug message
+2017-09-20 11:57:08,691 INFO  ( logTest.java:13)     - Hello this is an info message
+09-20@11:57:55 DEBUG ( logTest.java:12)     - Hello this is a debug message
+09-20@11:57:55 INFO  ( logTest.java:13)     - Hello this is an info message
+2017-09-20@11:59:30 DEBUG ( logTest.java:12:testLogFile())     - Hello this is a debug message
+2017-09-20@11:59:30 INFO  ( logTest.java:13:testLogFile())     - Hello this is an info message
+2017-09-20@12:00:14 DEBUG ( logTest.java:12:testLogFile()) - Hello this is a debug message
+2017-09-20@12:00:14 INFO  ( logTest.java:13:testLogFile()) - Hello this is an info message
+2017-09-20@12:00:47 [DEBUG] ( logTest.java:12:testLogFile()) - Hello this is a debug message
+2017-09-20@12:00:47 [INFO ] ( logTest.java:13:testLogFile()) - Hello this is an info message
+2017-09-20@12:10:45 [DEBUG] ( logTest.java:9:testLogFile()) - Hello this is a debug message
+2017-09-20@12:10:45 [INFO ] ( logTest.java:10:testLogFile()) - Hello this is an info message
