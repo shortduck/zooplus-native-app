@@ -12,3 +12,35 @@
 2017-09-20@12:00:47 [INFO ] ( logTest.java:13:testLogFile()) - Hello this is an info message
 2017-09-20@12:10:45 [DEBUG] ( logTest.java:9:testLogFile()) - Hello this is a debug message
 2017-09-20@12:10:45 [INFO ] ( logTest.java:10:testLogFile()) - Hello this is an info message
+2017-09-20@15:27:28 [ERROR] ( BaseDAO.java:25:createConnection()) - Error occured while making a in-memory connection.No suitable driver
+2017-09-20@17:25:56 [INFO ] (            ?:?:logInfoEvent()) - Checkpoint start
+2017-09-20@17:25:56 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose start
+2017-09-20@17:25:56 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose synched
+2017-09-20@17:25:56 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose script done
+2017-09-20@17:25:56 [DEBUG] (            ?:?:logDetailEvent()) - log close size: 0
+2017-09-20@17:25:56 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose end
+2017-09-20@17:25:56 [INFO ] (            ?:?:logInfoEvent()) - Checkpoint end - txts: 1
+2017-09-21@09:43:19 [INFO ] (            ?:?:logInfoEvent()) - open start - state modified
+2017-09-21@09:43:19 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose start
+2017-09-21@09:43:19 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose synched
+2017-09-21@09:43:19 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose script done
+2017-09-21@09:43:19 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose end
+2017-09-21@10:58:39 [DEBUG] ( logTest.java:9:testLogFile()) - Hello this is a debug message
+2017-09-21@10:58:39 [INFO ] ( logTest.java:10:testLogFile()) - Hello this is an info message
+2017-09-21@11:30:00 [INFO ] ( daoTest.java:32:testGetVersion()) - 2.3.4
+2017-09-21@11:30:00 [INFO ] ( daoTest.java:33:testGetVersion()) - 2.3.4
+2017-09-21@11:30:00 [ERROR] ( BaseDAO.java:102:createTables()) - unexpected token: CREATE in statement [CREATE TABLE Users (ID IDENTITY  PRIMARY KEY,email VARCHAR(250)  NOT NULL,password  VARCHAR(250) NOT NULL,version SMALLINT NOT NULL, lastLogin TIMESTAMP NOT NULL);CREATE TABLE QueryHistory (ID IDENTITY  PRIMARY KEY,user_id INTEGER FOREIGN KEY REFERENCES users(ID),from_currency  VARCHAR(3) NOT NULL,from_amount DECIMAL (10,2) NOT NULL,to_currency  VARCHAR(3) NOT NULL,to_amount DECIMAL (10,2) NOT NULL,version SMALLINT NOT NULL, query_date TIMESTAMP NOT NULL);]
+2017-09-21@11:30:00 [INFO ] (            ?:?:logInfoEvent()) - open start - state modified
+2017-09-21@11:30:00 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose start
+2017-09-21@11:30:00 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose synched
+2017-09-21@11:30:00 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose script done
+2017-09-21@11:30:01 [INFO ] (            ?:?:logInfoEvent()) - checkpointClose end
+2017-09-21@13:06:50 [ERROR] ( daoTest.java:81:testInsertSampleRecords()) - user lacks privilege or object not found: USERS in statement [INSERT INTO USERS (EMAIL,           PASSWORD,   VERSION,LASTLOGIN)VALUES ('abc@abc.com','password',1,'2012-09-21 20:08:08')]
+2017-09-21@13:07:27 [ERROR] ( daoTest.java:81:testInsertSampleRecords()) - user lacks privilege or object not found: USERS in statement [INSERT INTO USERS (EMAIL,           PASSWORD,   VERSION,LASTLOGIN)VALUES ('abc@abc.com','password',1,'2012-09-21 20:08:08')]
+2017-09-21@13:07:50 [ERROR] ( daoTest.java:81:testInsertSampleRecords()) - user lacks privilege or object not found: USERS in statement [INSERT INTO public.USERS (EMAIL,           PASSWORD,   VERSION,LASTLOGIN)VALUES ('abc@abc.com','password',1,'2012-09-21 20:08:08')]
+2017-09-21@13:08:31 [INFO ] ( daoTest.java:33:testGetVersion()) - 2.3.4
+2017-09-21@13:08:31 [INFO ] ( daoTest.java:34:testGetVersion()) - 2.3.4
+2017-09-21@13:08:32 [INFO ] (            ?:?:logInfoEvent()) - open start - state not modified
+2017-09-21@13:19:06 [INFO ] ( daoTest.java:33:testGetVersion()) - 2.3.4
+2017-09-21@13:19:06 [INFO ] ( daoTest.java:34:testGetVersion()) - 2.3.4
+2017-09-21@13:19:07 [INFO ] (            ?:?:logInfoEvent()) - open start - state not modified
