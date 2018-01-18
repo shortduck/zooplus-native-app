@@ -1,7 +1,6 @@
 package zooplus.test;
 
 import static org.junit.Assert.fail;
-
 import org.junit.Assert;
 import org.junit.Test;
 import zooplus.dao.*;
@@ -14,6 +13,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.hsqldb.Server;
+
+
 
 public class daoTest implements Ilogging {
 
